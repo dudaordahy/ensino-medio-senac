@@ -1,0 +1,28 @@
+html{
+    background-color: black;
+}
+header{
+    background-color: darkgray;
+    font-size: 60px;
+    text-align: center;
+}
+body{
+    background-color: darkgray;
+}
+main{
+    margin-top: 3%;
+    margin-left: 30px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#if{
+    display: flex;
+    float: right;
+    width: 400px;
+    height: 400px;
+    margin-top: 5%;
+    margin-right: 10%;
+}
+div{
+    margin-left: 5%;
+}

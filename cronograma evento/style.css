@@ -1,0 +1,78 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+ 
+header.hero {
+background: url('imagens/festival.jfif') no-repeat center center/cover;
+    color: rgb(0, 0, 0);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: auto;
+}
+ 
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+ 
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+ 
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6e1ba2;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+ 
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+ 
+.about-section {
+    background-color: #f4f4f4;
+}
+ 
+.schedule-section {
+    background-color: #ffffff;
+}
+ 
+.schedule-item {
+    margin-bottom: 20px;
+}
+ 
+.schedule-item h3 {
+    font-size: 1.5rem;
+    color: #6e1ba2;
+}
+ 
+.schedule-item p {
+    font-size: 1rem;
+}
+ 
+.contact-section {
+    background-color: #f4f4f4;
+}
+ 
+footer.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
