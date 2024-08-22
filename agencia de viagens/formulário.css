@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    background-image: url(imagens/viagens_4.webp);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+#icon{
+    height: 100px;
+    position: relative;
+    top: 50px;
+    left: 140px;
+    z-index: 10;
+}
+ 
+.form-container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 80%;
+    max-width: 400px;
+    position: relative;
+}
+
+label {
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+    font-size: 16px;
+}
+ 
+input, textarea, select {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 50px;
+}
+button {
+    width: 50%;
+    padding: 12px;
+    background-color: pink;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-size: 16px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+ 
+button:hover {
+    background-color: rgb(238, 163, 175);
+    transform: scale(1.05);
+}
+
+.oswald{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}

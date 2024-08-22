@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Agencia de Viagens</title>
+    <link rel="stylesheet" href="formulário.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <img src="imagens/cedula.png" id="icon">
+    <div class="form-container">
+        <form action="#" method="post">
+            <h2 class="oswald">Formulário</h2>
+            <label for="nome" class="oswald">Nome:</label>
+            <input type="text" class="oswald" name="text" placeholder="Digite seu nome" required>
+
+            <label for="nome" class="oswald">Sobrenome:</label>
+            <input type="text" class="oswald" name="text" placeholder="Digite seu sobrenome" required>
+
+            <label for="email" class="oswald">E-mail:</label>
+            <input type="email" class="oswald" name="email" placeholder="Digite seu E-mail" required>
+
+            <label for="message" class="oswald">Mensagem:</label>
+            <textarea type="message" class="oswald" rows="4" placeholder="Digite uma menssagem"></textarea>
+
+            <label for="message" class="oswald">Escolha o pacote desejado:</label>
+            <select name="languages" class="oswald">
+                <option value=".">.</option>
+                <option value="egito">De 2 meses a 4 meses no Egito</option>
+                <option value="italia">Viagem para 5 cidades da Itália</option>
+                <option value="nz">5 meses na Nova Zelândia</option>
+            </select>
+            <div>
+            <button class="oswald" type="submit">Enviar</button>
+            </div>
+        </form> 
+    </div>
+    
+</body>
+</html>
