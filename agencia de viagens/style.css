@@ -18,7 +18,7 @@ header{
     box-shadow: 0 0 10px;
     text-align: left;
     width: 98%;
-    font-size: 20px;
+    font-size: 18px;
     height: 150px;
     margin: 10px;
 }
@@ -26,9 +26,17 @@ header{
     display: flex;
     justify-content: space-between;
 }
+p{
+    font-size: 18px;
+    margin: 10px;
+}
+h3{
+    font-size: 25px;
+    margin: 10px;
+}
 .container{
-    font-size: large;
-    margin: 20px;
+    font-size: 18px;
+    margin: 10px;
     border-radius: 16px;
     box-shadow: 0 0 10px;
     text-align: center;
@@ -37,7 +45,7 @@ header{
     align-items: center;
 }
 .paises{
-    margin-top: 20px;
+    margin-top: 10px;
     border-radius: 16px;
     width: 300px;
     height: 150px;
@@ -47,7 +55,6 @@ header{
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
-  margin-left: 10px;
 }
 button {
     width: 200px;
