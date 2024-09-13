@@ -64,6 +64,7 @@ header nav a {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 .image{
     flex: 1;
@@ -79,4 +80,10 @@ header nav a {
 .image img:hover{
     width: 300px;
     height: 200px;
+}
+footer{
+    background-color: rgb(201, 201, 201);
+    width: auto;
+    padding: 20px;
+    text-align: center;
 }
