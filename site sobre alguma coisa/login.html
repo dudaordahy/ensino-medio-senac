@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário com Imagem de Fundo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <header>
+        <div class="icon">
+        <img src="imagens2/restaurante.png"></img>
+        </div>
+    </header>
+ 
+    <div class="form-container">
+        <form action="#" method="POST">
+            <h2  class="kanit-thin">Entre em Contato</h2>
+            <label  class="kanit-thin" for="name">Nome:</label>
+            <input  class="kanit-thin" type="text" id="name" name="name" placeholder="Digite seu nome" required>
+ 
+            <label class="kanit-thin" for="email">E-mail:</label>
+            <input class="kanit-thin" type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+ 
+            <label class="kanit-thin" for="message">Mensagem:</label>
+            <textarea class="kanit-thin" id="message" name="message" rows="4" placeholder="Dê seu feedback sobre o restaurante" required></textarea>
+ 
+            <button class="kanit-thin" type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>

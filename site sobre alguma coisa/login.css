@@ -1,0 +1,82 @@
+.kanit-thin {
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+}
+body {
+    font-family: 'Poppins', sans-serif; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    background-image: url(../restaurante/comidas/restaurante.webp);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+ }
+ 
+ .icon img {
+    height: 100px;
+    position: absolute;
+    top: 100px;
+    right: 440px;
+    z-index: 10;
+ }
+ 
+ .form-container {
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    border: 1px solid #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 80%;
+    max-width: 400px;
+    position: relative;
+ }
+ 
+ 
+ h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+ }
+ 
+ 
+ label {
+    color: #fff;
+    margin-bottom: 5px;
+    display: block;
+    font-size: 16px;
+ }
+ 
+ input, textarea {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 50px;
+ }
+ 
+ 
+ button {
+    width: 50%;
+    padding: 12px;
+    background-color: #131714;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-size: 16px;
+    margin-left: 100px;
+ }
+ 
+ button:hover {
+    background-color: #141a14;
+    transform: scale(1.05);
+ }
