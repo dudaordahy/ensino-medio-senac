@@ -10,7 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 800px;
-    background-image: url(../restaurante/comidas/restaurante.webp);
+    background-image: url(comidas/login.jfif);
     background-size: cover;
     background-position: center;
     flex-direction: column;
@@ -27,7 +27,7 @@ body {
  .form-container {
     background-color: transparent;
     backdrop-filter: blur(20px);
-    border: 1px solid #fff;
+    border: 2px solid #fff;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -39,7 +39,7 @@ body {
  
  h2 {
     text-align: center;
-    color: #333;
+    color: #fff;
     margin-bottom: 20px;
     font-size: 24px;
  }
@@ -66,7 +66,7 @@ body {
  button {
     width: 50%;
     padding: 12px;
-    background-color: #131714;
+    background-color: #217812;
     color: white;
     border: none;
     border-radius: 5px;
@@ -77,6 +77,6 @@ body {
  }
  
  button:hover {
-    background-color: #141a14;
+    background-color: #15500a;
     transform: scale(1.05);
  }

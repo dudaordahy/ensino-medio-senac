@@ -39,7 +39,7 @@ header nav a {
 }
 .container{
     background-image: url(comidas/restaurante.jpg);
-    width: 96%;
+    width: auto;
     height: 600px;
     padding: 10% 30px;
     font-size: 60px;
@@ -74,4 +74,9 @@ header nav a {
     height: 150px;
     border-radius: 6%;
     padding: 5px;
+    transition: width 1s, height 1s;
+}
+.image img:hover{
+    width: 300px;
+    height: 200px;
 }
