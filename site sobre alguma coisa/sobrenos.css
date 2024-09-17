@@ -3,7 +3,7 @@
     font-style: normal;
 }
 *{
-    margin: 0;
+    margin: 0%;
     padding: 0;
 }
 a{
@@ -14,6 +14,7 @@ a{
 a:hover{
     text-decoration: underline;
 }
+
 h2{
     display: inline;
     text-align: left;
@@ -26,7 +27,7 @@ header{
     justify-content: space-between;
     text-align: right;
     background-color: rgb(201, 201, 201);
-    color: #fff;
+    color: #ffffff;
 }
 header nav {
     list-style-type: none ;
@@ -37,54 +38,31 @@ header nav a {
     display: inline-block;
     margin: 30px 40px;
 }
+
 .container{
     background-image: url(comidas/restaurante.jpg);
     width: auto;
-    height: 600px;
+    height: 150px;
     padding: 10% 30px;
     font-size: 60px;
-    color: #fff;
-}
-#btn{
-    display: inline-block;
-    padding: 15px 20px;
-    background-color: rgb(201, 201, 201);
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 15px;
-    box-shadow: 0 0 5px #333;
-}
-#menu{
-    text-align: center;
-    font-size: 40px;
-    margin-top: 10px;
-}
-.gallery{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.image{
-    flex: 1;
+    color: #ffffff;
     text-align: center;
 }
-.image img{
-    width: 200px;
-    height: 150px;
-    border-radius: 6%;
-    padding: 5px;
-    transition: width 1s, height 1s;
+h1{
+    font-size: 60px;
 }
-.image img:hover{
-    width: 300px;
-    height: 200px;
+.p {
+    margin: 30px;
+    width: 50%;
+    height: 50%;
+    padding: 10px;
+    box-shadow: 0 0 10px #000000;
+    text-align: center;
 }
 footer{
     background-color: rgb(201, 201, 201);
     width: auto;
     padding: 20px;
     text-align: center;
-    color: #fff;
+    color:#fff;
 }
