@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    transition: linear;
+}
+a:hover{
+    text-decoration: underline;
+}
+h2{
+    display: inline;
+    text-align: left;
+    margin-right: 400px;
+}
+header{
+    font-size: 20px;
+    width: 100%;
+    height: 90px;
+    justify-content: space-between;
+    text-align: right;
+    background-color: rgb(201, 201, 201);
+    color: #fff;
+}
+header nav {
+    list-style-type: none ;
+    padding: 0;
+}
+header nav a {
+    font-size: 20px;
+    display: inline-block;
+    margin: 30px 40px;
+}
+.hero {
+    background-image: url(comidas/pizza.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: auto;
+    height: 400px;
+    padding: 10% 30px;
+    font-size: 60px;
+    color: #fff;
+}
+
+h2 .container{
+    text-align: center;
+    display: flex;
+    margin-left: 200px;
+
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.destinos {
+    padding: 2rem 0;
+    background: #f4f4f4;
+}
+
+/* Centralizar o título na seção de destinos */
+.destinos h2 {
+    text-align: center;
+    margin-bottom: 20px; /* Adiciona um espaço abaixo do título */
+    margin-left: 520px;
+    margin-right: 520px;
+    display: flex;
+}
+
+.destinos .container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.destino {
+    flex: 1 1 calc(33.333% - 1rem);
+    margin: 0.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.destino img {
+    max-width: 100%; /* Faz com que a imagem se ajuste ao tamanho do bloco */
+    height: auto; /* Mantém a proporção da imagem */
+    width: 267px;
+    height: 168px;
+    border-radius: 8px;
+}
+
+.destino h3 {
+    margin: 0.5rem 0;
+}
+
+footer{
+    background-color: rgb(201, 201, 201);
+    width: auto;
+    padding: 20px;
+    text-align: center;
+    color:#fff;
+}
+.kanit-thin {
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+}

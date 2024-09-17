@@ -43,21 +43,23 @@ header nav a {
     background-image: url(comidas/restaurante.jpg);
     width: auto;
     height: 150px;
-    padding: 10% 30px;
+    padding: 15% 30px;
     font-size: 60px;
-    color: #ffffff;
+    color: #fff;
     text-align: center;
 }
 h1{
     font-size: 60px;
+}
+h3{
+    font-size: 40px;
 }
 .p {
     margin: 30px;
     width: 50%;
     height: 50%;
     padding: 10px;
-    box-shadow: 0 0 10px #000000;
-    text-align: center;
+    text-align: left;
 }
 footer{
     background-color: rgb(201, 201, 201);
