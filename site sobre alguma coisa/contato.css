@@ -28,7 +28,7 @@ header{
     height: 90px;
     justify-content: space-between;
     text-align: right;
-    background-color: rgb(201, 201, 201);
+    background-color: rgb(102, 67, 49);
     color: #fff;
 }
 header nav {
@@ -47,7 +47,7 @@ header nav a {
     width: auto;
     height: 400px;
     padding: 10% 30px;
-    font-size: 60px;
+    font-size: 45px;
     color: #fff;
 }
 
@@ -64,16 +64,6 @@ h2 .container{
 
 .destinos {
     padding: 2rem 0;
-    background: #f4f4f4;
-}
-
-/* Centralizar o título na seção de destinos */
-.destinos h2 {
-    text-align: center;
-    margin-bottom: 20px; /* Adiciona um espaço abaixo do título */
-    margin-left: 520px;
-    margin-right: 520px;
-    display: flex;
 }
 
 .destinos .container {
@@ -89,26 +79,17 @@ h2 .container{
     margin: 0.5rem;
     text-align: center;
     margin-bottom: 20px;
-}
-
-.destino img {
-    max-width: 100%; /* Faz com que a imagem se ajuste ao tamanho do bloco */
-    height: auto; /* Mantém a proporção da imagem */
-    width: 267px;
-    height: 168px;
-    border-radius: 8px;
-}
-
-.destino h3 {
-    margin: 0.5rem 0;
+    margin-top: 20px;
 }
 
 footer{
-    background-color: rgb(201, 201, 201);
+    background-color: rgb(102, 67, 49);
     width: auto;
-    padding: 20px;
+    height: auto;
+    padding: 10px;
     text-align: center;
     color:#fff;
+    font-size: 16px;
 }
 .kanit-thin {
     font-family: "Kanit", sans-serif;

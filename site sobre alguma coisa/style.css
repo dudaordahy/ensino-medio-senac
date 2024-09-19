@@ -25,7 +25,7 @@ header{
     height: 90px;
     justify-content: space-between;
     text-align: right;
-    background-color: rgb(201, 201, 201);
+    background-color: rgb(102, 67, 49);
     color: #fff;
 }
 header nav {
@@ -48,7 +48,7 @@ header nav a {
 #btn{
     display: inline-block;
     padding: 15px 20px;
-    background-color: rgb(201, 201, 201);
+    background-color: rgb(102, 67, 49);
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -82,9 +82,11 @@ header nav a {
     height: 200px;
 }
 footer{
-    background-color: rgb(201, 201, 201);
+    background-color: rgb(102, 67, 49);
     width: auto;
+    height: auto;
     padding: 20px;
     text-align: center;
-    color: #fff;
+    color:#fff;
+    font-size: 16px;
 }
