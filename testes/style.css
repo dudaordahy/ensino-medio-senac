@@ -20,6 +20,9 @@ header nav a {
     text-decoration: none;
     color: #08009a;
 }
+header nav a:hover{
+    text-decoration: underline;
+}
 body{
     margin: 0;
 }
