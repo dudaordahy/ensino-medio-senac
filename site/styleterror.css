@@ -44,17 +44,17 @@ th{
 }
 #panico{
     width: 300px;
-    height: 350px;
+    height: 370px;
     box-shadow: 10px 10px 10px rgb(32, 31, 31);
 }
 #hereditario{
     width: 300px;
-    height: 350;
+    height: 370px;
     box-shadow: 10px 10px 10px rgb(32, 31, 31);
 }
 #telefone{
     width: 300px;
-    height: 350px;
+    height: 370px;
     box-shadow: 10px 10px 10px rgb(32, 31, 31);
 }
 .texto{
